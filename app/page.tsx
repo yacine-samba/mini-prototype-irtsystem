@@ -93,7 +93,7 @@ export default function Page() {
             <Chip icon={<ScienceIcon />} label="Prototype d'écran — IRT SystemX" color="primary" variant="outlined" />
             <Typography variant="h1" fontSize={{ xs: 28, md: 40 }}>Démonstrateur • Projet Énergie & Mobilité</Typography>
             <Typography variant="body1" color="text.secondary" maxWidth={820}>
-              Un écran unique pour illustrer une approche simple : aperçu des indicateurs, liste de données et exécution d'un scénario paramétré.
+              Un écran unique pour illustrer une approche simple : aperçu des indicateurs, liste de données et exécution d&apos;un scénario paramétré.
             </Typography>
             <Stack direction="row" spacing={1}>
               <Button onClick={() => setOpenNotice(true)} startIcon={<HelpOutlineIcon />} variant="outlined">Notice 1 page</Button>
@@ -126,7 +126,7 @@ export default function Page() {
                         <Typography variant="h6">Résumé</Typography>
                         <Typography color="text.secondary">
                           Ce module présente un état synthétique du projet (KPIs) et un dernier résultat simulé.
-                          L'objectif : montrer un aperçu lisible et opérationnel, sans dépendance back.
+                          L&apos;objectif : montrer un aperçu lisible et opérationnel, sans dépendance back.
                         </Typography>
                       </Box>
                     </Stack>
@@ -216,7 +216,7 @@ export default function Page() {
                     {history.length === 0 && (
                       <TableRow>
                         <TableCell colSpan={3}>
-                          <Typography color="text.secondary">Aucun scénario exécuté pour l'instant.</Typography>
+                          <Typography color="text.secondary">Aucun scénario exécuté pour l&apos;instant.</Typography>
                         </TableCell>
                       </TableRow>
                     )}
@@ -245,7 +245,7 @@ export default function Page() {
       {/* Notice 1 page */}
       <Dialog open={openNotice} onClose={() => setOpenNotice(false)} maxWidth="sm" fullWidth>
         <DialogTitle>
-          Notice d'utilisation — Mini prototype
+          Notice d&apos;utilisation — Mini prototype
           <IconButton onClick={() => setOpenNotice(false)} sx={{ position: 'absolute', right: 8, top: 8 }}>
             <HelpOutlineIcon />
           </IconButton>
@@ -256,14 +256,14 @@ export default function Page() {
             <Typography color="text.secondary">Illustrer un écran front-end simple utilisable pour un démonstrateur : aperçu, données, scénario.</Typography>
             <Typography variant="subtitle1">Ce que montre cet écran</Typography>
             <ul>
-              <li><strong>Aperçu :</strong> 3 KPIs synthétiques pour situer l'état du projet.</li>
+              <li><strong>Aperçu :</strong> 3 KPIs synthétiques pour situer l&apos;état du projet.</li>
               <li><strong>Données :</strong> table minimaliste (exemple) pour lister des points récents.</li>
-              <li><strong>Scénario :</strong> formulaire court, curseur d'itérations, upload fictif, historique local.</li>
+              <li><strong>Scénario :</strong> formulaire court, curseur d&apos;itérations, upload fictif, historique local.</li>
             </ul>
             <Typography variant="subtitle1">Remplacement rapide</Typography>
             <ul>
               <li>Remplacer les valeurs mockées (KPIs, lignes de table) par les vôtres.</li>
-              <li>Brancher le bouton "Lancer le scénario" sur une API en POST (selon votre stack).</li>
+              <li>Brancher le bouton &quot;Lancer le scénario&quot; sur une API en POST (selon votre stack).</li>
               <li>Adapter couleurs/texte à votre design interne.</li>
             </ul>
           </Stack>
