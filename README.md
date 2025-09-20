@@ -7,7 +7,7 @@ Un écran **front‑end** minimaliste pour illustrer une démarche d’apprentis
 * **Scénario**: formulaire court (sélecteur de modèle, slider d’itérations, upload fictif, lancement + historique)
 * **Notice 1 page** embarquée (dialog)
 
-> **Objectif** : montrer rapidement la capacité à structurer une UI claire et utile, sans back-end. Le code vit dans \`\`.
+> **Objectif** : montrer rapidement la capacité à structurer une UI claire et utile, sans back-end.
 
 ---
 
@@ -124,7 +124,6 @@ app/
 
 ## ❓Dépannage
 
-* \*\*Erreur TS sur \*\*\`\`: vérifier l’import `SelectChangeEvent` et la signature `onChange={(e: SelectChangeEvent) => ...}`
 * **Page blanche**: confirmer le chemin `/irt-prototype` et la présence de `"use client"` en tête du fichier.
 * **Node trop ancien**: mettre à jour (≥ 18.18) ou utiliser Node 20 LTS.
 
